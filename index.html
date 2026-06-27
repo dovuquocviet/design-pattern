@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Design Patterns — Minh hoạ động (Head First)</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>🎨 Design Patterns</h1>
+    <p class="subtitle">Head First Design Patterns — minh hoạ <em>động</em>, tương tác</p>
+  </header>
+
+  <main class="container">
+    <p class="intro">Mỗi pattern có animation tương tác + panel code chi tiết. Bấm vào thẻ để mở.</p>
+
+    <section class="pattern-grid">
+      <a class="pattern-card available" href="strategy.html">
+        <div class="card-icon"><span class="glyph gl-strategy">
+          <span class="bar"></span><span class="bar on"></span><span class="bar"></span>
+        </span></div>
+        <h2>Strategy</h2>
+        <p>Con vịt đổi hành vi bay/kêu lúc chạy mà không sửa lớp gốc.</p>
+        <span class="badge">Mở →</span>
+      </a>
+
+      <a class="pattern-card available" href="observer.html">
+        <div class="card-icon"><span class="glyph gl-observer">
+          <span class="hub"></span>
+          <span class="sat s1"></span><span class="sat s2"></span><span class="sat s3"></span>
+        </span></div>
+        <h2>Observer</h2>
+        <p>Trạm thời tiết phát dữ liệu, các bảng hiển thị tự cập nhật.</p>
+        <span class="badge">Mở →</span>
+      </a>
+
+      <a class="pattern-card available" href="decorator.html">
+        <div class="card-icon">
+          <span class="ring r3"></span><span class="ring r2"></span>
+          <span class="ring r1"></span><span class="core"></span>
+        </div>
+        <h2>Decorator</h2>
+        <p>Đồ uống được "bọc" bởi nhiều topping — mỗi topping một vòng tròn.</p>
+        <span class="badge">Mở →</span>
+      </a>
+
+      <a class="pattern-card available" href="factory.html">
+        <div class="card-icon"><span class="glyph gl-factory">
+          <span class="hopper"></span><span class="out"></span>
+        </span></div>
+        <h2>Factory</h2>
+        <p>Lò pizza tạo loại pizza phù hợp mà không cần biết chi tiết.</p>
+        <span class="badge">Mở →</span>
+      </a>
+
+      <a class="pattern-card available" href="singleton.html">
+        <div class="card-icon"><span class="glyph gl-singleton"><span class="one">1</span></span></div>
+        <h2>Singleton</h2>
+        <p>Nồi sô-cô-la: mọi getInstance() đều trả về cùng một thể hiện.</p>
+        <span class="badge">Mở →</span>
+      </a>
+
+      <a class="pattern-card available" href="command.html">
+        <div class="card-icon"><span class="glyph gl-command">
+          <span class="remote"><i></i><i></i></span>
+        </span></div>
+        <h2>Command</h2>
+        <p>Điều khiển từ xa: mỗi nút gói một "lệnh" execute()/undo().</p>
+        <span class="badge">Mở →</span>
+      </a>
+
+      <a class="pattern-card available" href="adapter.html">
+        <div class="card-icon"><span class="glyph gl-adapter">
+          <span class="sq"></span><span class="link"></span><span class="ci"></span>
+        </span></div>
+        <h2>Adapter</h2>
+        <p>Bọc con gà tây để nó "giả" làm con vịt biết quack().</p>
+        <span class="badge">Mở →</span>
+      </a>
+
+      <a class="pattern-card available" href="facade.html">
+        <div class="card-icon"><span class="glyph gl-facade">
+          <span class="back b1"></span><span class="back b2"></span><span class="front"></span>
+        </span></div>
+        <h2>Facade</h2>
+        <p>Một nút watchMovie() bật cả dàn rạp hát tại gia.</p>
+        <span class="badge">Mở →</span>
+      </a>
+
+      <a class="pattern-card available" href="template-method.html">
+        <div class="card-icon"><span class="glyph gl-template">
+          <span class="step"></span><span class="step v"></span>
+          <span class="step"></span><span class="step v"></span>
+        </span></div>
+        <h2>Template Method</h2>
+        <p>Pha Cà phê &amp; Trà chung khung thuật toán, khác vài bước.</p>
+        <span class="badge">Mở →</span>
+      </a>
+
+      <a class="pattern-card available" href="iterator.html">
+        <div class="card-icon"><span class="glyph gl-iterator">
+          <span class="dot"></span><span class="dot cur"></span><span class="dot"></span>
+          <span class="ptr"></span>
+        </span></div>
+        <h2>Iterator</h2>
+        <p>Duyệt các thực đơn khác cấu trúc bằng cùng một cách.</p>
+        <span class="badge">Mở →</span>
+      </a>
+
+      <a class="pattern-card available" href="composite.html">
+        <div class="card-icon"><span class="glyph gl-composite">
+          <span class="root"></span><span class="child c1"></span><span class="child c2"></span>
+        </span></div>
+        <h2>Composite</h2>
+        <p>Thực đơn lồng thực đơn — xử lý lá và nhánh như nhau.</p>
+        <span class="badge">Mở →</span>
+      </a>
+
+      <a class="pattern-card available" href="state.html">
+        <div class="card-icon"><span class="glyph gl-state"><span class="cyc"></span></span></div>
+        <h2>State</h2>
+        <p>Máy bán kẹo gumball chuyển trạng thái theo hành động.</p>
+        <span class="badge">Mở →</span>
+      </a>
+
+      <a class="pattern-card available" href="proxy.html">
+        <div class="card-icon"><span class="glyph gl-proxy">
+          <span class="frame back"></span><span class="frame front"></span>
+        </span></div>
+        <h2>Proxy</h2>
+        <p>Proxy ảnh: hiện ảnh tạm, tải ảnh thật khi cần.</p>
+        <span class="badge">Mở →</span>
+      </a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Lấy cảm hứng từ <strong>Head First Design Patterns</strong> · HTML/CSS/JS thuần</p>
+  </footer>
+</body>
+</html>
